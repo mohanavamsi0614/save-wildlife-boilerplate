@@ -29,17 +29,24 @@ nav,
 #credits {
   background-color: black;
   height: 60px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
   /* Your code goes here */
 }
 
 .container {
   width: 500px;
+  display: flex;
+  justify-content:space-around;
+  /* gap: 20%; */
   /* Your code goes here */
 }
 
 .button {
   background-color: #ffcc00;
-  padding: 8px;
+  padding: 5px;
+  margin-bottom: 10px;
 }
 
 a {
